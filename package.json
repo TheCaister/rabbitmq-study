@@ -1,0 +1,24 @@
+{
+  "name": "rabbitmq-study",
+  "version": "1.0.0",
+  "description": "",
+  "main": "consumer.js",
+  "scripts": {
+    "publish": "node publisher.js",
+    "consume": "node consumer.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TheCaister/rabbitmq-study.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TheCaister/rabbitmq-study/issues"
+  },
+  "homepage": "https://github.com/TheCaister/rabbitmq-study#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3"
+  }
+}
